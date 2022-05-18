@@ -18,7 +18,8 @@ public class Horse extends Animal {
 
     @Override
     public String toString() {
-        return "Horse{" +
+        return super.toString()+
+        "Horse{" +
                 "color='" + color + '\'' +
                 '}';
     }

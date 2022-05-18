@@ -50,11 +50,10 @@ public abstract class Animal {
 
     @Override
     public String toString() {
-        return " {" +
-                "weight=" + weight +
-                ", age=" + age +
-                ", gender='" + gender + '\'' +
-                ", nickName='" + nickName + '\'' +
-                '}';
+        return
+                "weight:" + weight +
+                ", age: " + age +
+                ", gender:" + gender + '\'' +
+                ", nickName:'" + nickName + '\'' ;
     }
 }

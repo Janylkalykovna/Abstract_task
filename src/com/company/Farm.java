@@ -40,12 +40,12 @@ public class Farm {
     }
     @Override
     public String toString() {
-        return "Farm{" +
-                "ovnerName='" + ovnerName + '\'' +
-                ", address='" + address + '\'' + "," + "\n" +
-                ", horses=" + Arrays.toString(horses) + "," + "\n" +
-                ", sheeps=" + Arrays.toString(sheeps) + "," + "\n" +
-                ", cows=" + Arrays.toString(cows) +
+        return
+                "ovnerName is:" + ovnerName + '\'' +
+                ", address: " + address + '\'' + "," + "\n" +
+                 Arrays.toString(horses) + "," + "\n" +
+                 Arrays.toString(sheeps) + "," + "\n" +
+                 Arrays.toString(cows) +
                 '}';
     }
 }
